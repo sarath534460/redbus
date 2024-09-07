@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Add this link in the <head> section of your HTML -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container" style="position:relative">
+    <div class="header" style="position:sticky;top:0;z-index: 1000;">
+      <div class="header1" style="display:flex;flex-direction:row;align-items:center;height:100px;width:100%;background-color: white;border:none">
+        <img src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg" alt="redBus" class="rb_logo" title="redBus" style="width: 5rem; height: 3rem; cursor: pointer;margin-left: 150px;">
+
+        <div class="yu" id="bus_tickets_vertical" data-url="https://www.redbus.in/bus-tickets" style="display: flex; flex-direction: column; padding: 1em 0.625rem; background-color:#d84e55 !important;; border-radius: 0.5rem; margin-right: 1rem; text-align: center; position: relative;margin-left:100px">
+          <img class="img_rb_vertical" src="https://s3.rdbuz.com/Images/rdc/rdc-redbus-logo.svg" alt="Online Bus Tickets Booking" title="Online Bus Tickets Booking" style="height: 1.25rem; margin-bottom: 0.5rem; filter: grayscale(1) brightness(0); width: 5.25rem;filter: brightness(0) invert(1) !important;">
+           <span class="name_rb_vertical" style="color: #1d1d1d; font-weight: 500; text-wrap: nowrap; font-family: Montserrat;font-size:14px;color: white;">Bus Tickets</span>
+        </div>
+          
+        <div class="rb_vertical link " id="rail_tickets_vertical" data-url="https://www.redbus.in/railways" style="display: flex; flex-direction: column; padding: 1em 0.625rem; background-color: #fff; border-radius: 0.5rem; margin-right: 1rem; text-align: center; position: relative;">
+          <div class="img_rb_vertical_wrap" style="width: 5.25rem;">
+              <div class="img_new_wrap" style=" position: relative; width: fit-content; margin: 0 auto;">
+                  <img class="img_rb_vertical" src="https://s3.rdbuz.com/web/images/layout/rail_vertical.svg" alt="Online Train Tickets Booking" title="Online Train Tickets Booking" style="height: 1.25rem; margin-bottom: 0.5rem; filter: grayscale(1) brightness(0); width: auto;">
+                  <span class="img_tag" style="position: absolute; padding: 0.125rem 0.25rem; background: #60b681; color: white; border-radius: 0.375rem; font-size: 0.675rem; font-weight: 500; top: -0.625rem; left: 84%; height: 1.063rem; width: 3rem;">₹80 off</span>
+              </div>
+          </div>
+           <span class="name_rb_vertical" style="color: #1d1d1d; font-weight: 500;font-size:14px; text-wrap: nowrap;font-family: Montserrat;">Train Tickets</span>
+        </div>
+
+        <div style="display:flex;flex-direction:row;align-items:center;gap:30px;margin-left: 500px;    font-size: 14px;color: #1d1d1d;">
+          <p style="color: #1d1d1d; font-weight: 500;font-size:14px; text-wrap: nowrap;font-family: Montserrat;">Help</p>
+
+          <p style="color: #1d1d1d; font-weight: 500;font-size:14px; text-wrap: nowrap;font-family: Montserrat;">English</p>
+          <p class="name_rb_vertical" style="color: #1d1d1d; font-weight: 500;font-size:14px; text-wrap: nowrap;font-family: Montserrat;">MyAccount</p>
+
+        </div>
+     
+      </div>
+    </div>
+
+    <div>
+
+      <img src="https://s3.rdbuz.com/images/webplatform/india/Homepage-header-2000.webp" style="width:100%;background-repeat: round; height: 32.5rem;background-size: cover ;margin-left:0;margin-right:0" >
+      <h1 style="margin-left:400px;position:absolute;top:120px;font-size: 32px;color:white;font-weight: 700;font-family: Montserrat;display:flex;align-items: center;">India's No. 1 Online Bus Ticket Booking Site</h1>
+      
+    </div>
+
+    <div>
+      <div style="margin-left:200px;position:absolute;top:300px;background-color:#f7f9f8;height:100px;width:1120px;border-radius:32px;display:flex;flex-direction:row;align-items: center;gap: 130px;">
+
+        <div class="from" style="display:flex ;flex-direction: row;align-items: center;gap:10px;margin-left: 20px;" >
+          <div >
+            <p class="ml-3"><i class=" fa fa-thin fa-bus fa-xl"></i></p>
+          </div>
+          <div>
+            <p>From</p>
+            <input type="text" style="outline:none;padding:5px;border:none;background-color:#f7f9f8; font-family: Montserrat;font-weight: 600;font-size: 1rem;color: rgb(29, 29, 29);">
+          </div>
+          
+        </div>
+        
+        <div class="to" style="display:flex;flex-direction: row;align-items: center;gap:10px">
+          <div>
+            <p><i class=" fa fa-thin fa-bus fa-xl"></i></p>
+          </div>
+          <div>
+            <p >To</p>
+            <input type="text" style="outline:none;padding:5px;border:none;background-color:#f7f9f8; font-family: Montserrat;font-weight: 600;font-size: 1rem;color: rgb(29, 29, 29);">
+
+          </div>
+
+        </div>
+
+        <div class="date">
+          <p><i class="fa fa-thin fa-calendar-days fa-lg"></i></p>
+
+        </div>
+
+
+        <div class="searchbuses">
+         <div style="margin-bottom:17px;background-color:rgb(216, 78, 85);height:100px;width:200px;border-top-right-radius:150px;border-bottom-right-radius:150px ">
+          <div>
+            <h2 style="color:white;line-height: 15px;text-align: center;display:flex;justify-content: center;position :relative;top:40px">SEARCH BUSES</h2>
+
+          </div>
+         </div>
+        </div>
+      
+        
+      </div>
+
+    </div>
+
+    <div class="caro" style="margin-left: 180px;margin-bottom: 500px;">
+      <div style="padding:20px;position:absolute;top:565px;background-color:whitesmoke;height:280px;width:1100px;border-radius: 30px;">
+        <div style="display:flex;flex-direction: row;gap:700px;align-items: center;">
+          <div>
+            <h2 style="color:rgb(29, 29, 29);font-weight: 600;font-size: 1.75rem;    line-height: 39px;">TRENDING OFFERS</h2>
+          </div>
+            <h2 style="color:rgb(29, 29, 29);">View All</h2>
+         
+        </div>
+        <div style="display:flex;flex-direction: row;align-items: center;gap:1.5rem;overflow: scroll hidden;overflow-x: scroll;scroll-behavior: smooth;overflow-y: hidden;">
+          <div class="boxes" style="height:160px;width:290px;background-color: #d84e55;">jhgyg</div>
+          <div class="boxes" style="height:160px;width:290px;background-color: #d84e55"></div>
+          <div class="boxes" style="height:160px;width:290px;background-color: #d84e55;"></div>
+          <div class="boxes" style="height:160px;width:290px;background-color: #d84e55;"></div>
+          <div class="boxes" style="height:160px;width:290px;background-color: #d84e55;"></div>
+          <div class="boxes" style="height:160px;width:290px;background-color: #d84e55;"></div>
+          <div class="boxes" style="height:160px;width:290px;background-color: #d84e55;"></div>
+        </div>
+      </div>
+
+
+    </div>
+
+    
+
+  </div>
+</body>
+</html>
